@@ -1,0 +1,117 @@
+.about{
+	list-style: square;
+}
+
+body {
+	font-family: 'Bookman Old Style', serif;
+	font-size: 20px;
+	background-color: rgb(239, 176, 210);
+}
+
+button {
+	background-color: crimson;
+	font-size: 19px;
+	border: none;
+	border-radius: 25% 10%;
+	padding: 10px 25px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+.feedback {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	background: crimson;
+	border-radius: 1em;
+	margin: 1em auto;
+	max-width: 90%;
+	padding: .5e;
+}
+
+.gallery {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.gallery a {
+	display: flex;
+	max-width: 20em;
+	border: 1px solid black;
+	text-decoration: none;
+	color: inherit;
+	padding: 10px;
+	align-items: center;
+	margin: 5px;
+	border-radius: 20px;
+}
+
+.gallery a:hover {
+	box-shadow: inset 0px 0px 2px 2px rgb(119, 117, 117);
+}
+
+.gallery h3 {
+	margin: .5em;
+}
+
+.gallery .sample {
+	height: 2em;
+	width: 4em;
+}
+
+.menu ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	font-weight: bold;
+}
+
+.menu ul a{
+	text-decoration: none;
+	font-size: 30px;
+	color: crimson;
+}
+
+.menu ul a:hover{
+	text-shadow: 3px 3px 5px grey;
+}
+
+.options a{
+	text-decoration: none;
+	padding: 10px 25px;
+	background-color: #534F4E; 
+	color: white;
+	margin: 10px;
+}
+	
+.options a:hover {
+	background-color: rgb(99, 99, 89);
+	color: white;	
+}
+
+.order{
+	font-size: 15px;
+}
+
+.order a{
+	text-decoration: none;
+	color: white;
+	background-color: crimson;
+	border: 1px solid crimson;
+	padding: 9px;
+	margin: 13px;
+	border-radius: 10px;
+}
+
+.order a:hover{
+	background-color: rgb(224, 60, 93);
+	border: 1px solid rgb(224, 60, 93);
+}
